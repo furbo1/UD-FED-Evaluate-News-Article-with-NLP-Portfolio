@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>NLP Project</title>
+    </head>
+
+    <body>
+        
+        <main>
+
+            <h1 id="heading">NLP on NEWS Articles</h1>
+            
+            <div id="desc">
+                <h1>Natural Language Processing</h1>
+                <p>Natural Language Processing which is also known as NLP, is used to understand and process the natural language a human speaks. It also gives us results accordingly for that entered text. Amazingly, we can also check if the entered text is positive, negative or nuetral. Which we are testing in this project along with couple of other things.</p>
+                <!-- <br> -->
+                <p>We are using Aylien API which analysis text entered by the user and shows us the power of Natural Language Processing on a bigger picture. It understands what or who a document mentions, what topics it deals with, and what the sentiment of a piece of text is.</p>
+                <h1>Put any news article yourself</h1>
+                <p>You can put any news article in the following area and test yourself the power of NLP.</p>
+            </div>
+
+            <section>
+                <form class="">
+                    <strong>Article</strong>
+                    <textarea name="input" id="article" cols="30" rows="10" placeholder="Put your article here!"></textarea>
+                    <br>
+                    <button id="btn" type="button" value="submit">Submit</button>
+                </form>
+            <section>
+
+            <section id="error">
+                
+            </section>
+
+            <section id="table">
+                <div class="table-header">
+                    API Response
+                </div>
+                <table>
+                    <tr>
+                        <td>Polarity</td>
+                        <td id="polarity"></td>
+                    </tr>
+                    <tr>
+                        <td>Subjectivity</td>
+                        <td id="subjectivity"></td>
+                    </tr>
+                    <tr>
+                        <td>Polarity Confidence</td>
+                        <td id="polarity_confidence"></td>
+                    </tr>
+                    <tr>
+                        <td>Subjectivity Confidence</td>
+                        <td id="subjectivity_confidence"></td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+    </body>
+</html>
